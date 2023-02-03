@@ -2,7 +2,8 @@
 
 Always customize this docstring. 
 
-Add your name, date, and a description of the program.
+Amber Speer
+February 3, 2023
 
 Listens for messages on the queue.
 This process runs continously. 

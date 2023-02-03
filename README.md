@@ -1,44 +1,53 @@
+### Amber Speer
+## Module 3 Assignment
+
 # streaming-03-rabbitmq
 
 Get started with RabbitMQ, a message broker, that enables multiple processes to communicate reliably through an intermediary
 
 ## Before You Begin
 
-1. Fork this starter repo into your GitHub.
-1. Clone your repo down to your machine.
-1. In VS Code with Python extension, click on emit_message_v1.py to get VS Code in Python mode.
-1. View / Command Palette - then Python: Select Interpreter
-1. Select your conda environment. See the references below for more.
-1. Use the terminal to install pika into your active environment. 
+1. Fork this starter repo into your GitHub. (Done)
+2. Clone your repo down to your machine. (Done)
+3. In VS Code with Python extension, click on emit_message_v1.py to get VS Code in Python mode. (Done)
+4. View / Command Palette - then Python: Select Interpreter (Done)
+5. Select your conda environment. See the references below for more. (Done)
+6. Use the terminal to install pika into your active environment. (Done)
 
 `conda install -c conda-forge pika`
 
 ## Read
 
-1. Read the [RabbitMQ Tutorial - Hello, World!](https://www.rabbitmq.com/tutorials/tutorial-one-python.html)
-1. Read the code and comments in this repo.
+1. Read the [RabbitMQ Tutorial - Hello, World!](https://www.rabbitmq.com/tutorials/tutorial-one-python.html) (Done)
+2. Read the code and comments in this repo.
 
 ## Execute about,py
 
-1. Run about.py.
-1. Read about.txt. 
-1. Verfiy you have exactly one active, one None env.
+1. Run about.py. (Done)
+2. Read about.txt. (Done)
+3. Verfiy you have exactly one active, one None env. 
+    This is working correctly in the Anaconda Prompt terminal
 
 ## Version 1 - Execute the Producer/Sender
 
-1. Read v1_emit_message.py (and the tutorial)
+1. Read v1_emit_message.py (and the tutorial) (Done)
 1. Run the file. 
 
 You'll need to fix an error in the program to get it to run.
 Once it runs and finishes, we can reuse the terminal.
+
+**I didn't find an error.  I noticed that LocalHost was all capitalized, but it still ran in my terminal.**
 
 ## Version 1 - Execute the Consumer/Listener
 
 1. Read v1_listen_for_messages.py (and the tutorial)
 1. Run the file.
 
-You'll need to fix an error in the program to get it to run.
+You'll need to fix an error in the program to get it to run. (LocalHost was misspelled)
+
 Once it runs successfully, will it terminate on its own? How do you know? 
+(No, it will not terminate on its own.  This script did not include code to close the connection.)
+
 As long as the process is running, we cannot use this terminal for other commands. 
 
 ## Version 1 - Open a New Terminal / Emit More Messages

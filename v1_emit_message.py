@@ -4,6 +4,10 @@
     Author: Denise Case
     Date: January 14, 2023
 
+    Amber Speer
+    Streaming Data
+    Module 3 Assignment
+
 """
 
 # add imports at the beginning of the file
