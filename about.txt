@@ -5,14 +5,14 @@
 
  Welcome! 
 
- It's 2023-02-03 at 11:45 AM
+ It's 2023-02-03 at 12:04 PM
 
  This file is running on:    nt Windows 10
  
  The Python version is:      3.10.7
  
  The Python interpreter is at: 
- C:\Users\amber\AppData\Local\Programs\Python\Python310\python.exe
+ C:\Users\amber\Documents\GitHub\streaming-03-rabbitmq\base\Scripts\python.exe
 
  The active environment should be either conda OR pip (one should be None):
 
@@ -21,7 +21,7 @@
  
  The path to the active virtual environment is:
 
- C:\Users\amber\AppData\Local\Programs\Python\Python310
+ C:\Users\amber\Documents\GitHub\streaming-03-rabbitmq\base
  
  The Current Working Directory (CWD) where this command was launched is:
 

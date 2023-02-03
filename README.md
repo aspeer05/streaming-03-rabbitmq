@@ -52,21 +52,21 @@ As long as the process is running, we cannot use this terminal for other command
 
 ## Version 1 - Open a New Terminal / Emit More Messages
 
-1. Open a new terminal window.
-1. Use this new window to emit more messages
-1. In v1_emit_message.py, modify the message. 
-1. Execute the script. 
-1. Watch what happens in the listening window.
-1. Do this several times to emit at least 3 different messages.
+1. Open a new terminal window. (Done.  The environment and scripts are not runn correctly for me in VS so I am running all the scripts in a seperate terminal.  I think that is the goal, but I had to go straight to that step for some reason.)
+2. Use this new window to emit more messages (Done)
+3. In v1_emit_message.py, modify the message. (Done)
+4. Execute the script. (Done)
+5. Watch what happens in the listening window. (Done)
+6. Do this several times to emit at least 3 different messages. (Done)
 
 ## Version 1: Don't Repeat Yourself (DRY)
 
 1. Did you notice you had to change the message in two places?
     1. You update the actual message sent. 
-    1. You also update what is displayed to the user. 
-1. Fix this by introducting a variable to hold the message. 
+    2. You also update what is displayed to the user. 
+2. Fix this by introducting a variable to hold the message. 
     1. Use your variable when sending. 
-    1. Use the variable again when displaying to the user. 
+    2. Use the variable again when displaying to the user. 
 
 To send a new message, you'll only make one change.
 Updating and improving code is called 'refactoring'. 
@@ -80,21 +80,21 @@ and a consistent, reusable approach to building code.
 
 Each of the version 2 programs include an error as well. 
 
-1. Find the error and fix it. 
-1. Compare the structure of the version 2 files. 
-1. Modify the docstrings on all your files.
-1. Include your name and the date.
-1. Imports always go at the top, just after the file docstring.
-1. Imports should be one per line - why?
-1. Then, define your functions.
-1. Functions are reuable logic blocks.
-1. Everything the function needs comes in through the arguments.
-1. A function may - or may not - return a value. 
-1. When we open a connection, we should close the connection. 
-1. Which of the 4 files will always close() the connection?
-1. Search GitHub for if __name__ == "__main__":
-1. How many hits did you get? 
-1. Learn and understand this common Python idiom.
+1. Find the error and fix it. (Done)
+2. Compare the structure of the version 2 files. (Done)
+3. Modify the docstrings on all your files. (Done)
+4. Include your name and the date. (Done)
+5. Imports always go at the top, just after the file docstring.
+6. Imports should be one per line - why? (For readability)
+7. Then, define your functions.
+8. Functions are reuable logic blocks.
+9. Everything the function needs comes in through the arguments.
+10. A function may - or may not - return a value. 
+11. When we open a connection, we should close the connection. 
+12. Which of the 4 files will always close() the connection? (v2_listen_for_messages.py)
+13. Search GitHub for if __name__ == "__main__":
+14. How many hits did you get? over 40M code results
+15. Learn and understand this common Python idiom. (Done)
 
 ## Reference
 
@@ -103,4 +103,4 @@ Each of the version 2 programs include an error as well.
 
 ## Multiple Terminals
 
-![Mac Example](screenshot.png)
+![Screenshot](Screenshot.jpg)
